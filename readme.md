@@ -20,7 +20,7 @@ In addition to the visual annotations, Tempuckey dataset includes textual descri
 ### Repo Structure
 
 - `videos` folder includes hockey videos. A portion of the videos contain a face-off and/or a tripping event (positive videos).
-The videos containing the events of interest are included in `Tempuckey_ground_truth_batchxx.csv` files along with the `start_frame` and `end_frame` when the event starts and ends.
+The videos containing the events of interest are included in `Tempuckey_annotations_split.csv`; including the `start_frame` and `end_frame` of the events.
 
 - `annotations` folder contains the groupnd truth labels for the videos that have been manually reviewed.
 
